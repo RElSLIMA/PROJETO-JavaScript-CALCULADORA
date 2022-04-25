@@ -7,7 +7,13 @@ function calcular(tipo, valor) {
       valor === "-" ||
       valor === "*" ||
       valor === "/" ||
-      valor === "."
+      valor === "." ||
+      valor === "(" ||
+      valor === ")" ||
+      valor === "[" ||
+      valor === "]" ||
+      valor === "{" ||
+      valor === "}"
     ) {
       document.getElementById("tela").value += valor;
     }

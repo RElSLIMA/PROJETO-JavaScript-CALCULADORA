@@ -67,3 +67,17 @@ textarea {
 .ultimaFileira {
   margin-top: -60px;
 }
+
+.caracteresEspeciais {
+  color: #fff;
+  padding-bottom: 10px;
+  width: 36.4px;
+  height: 40px;
+  background-color: darkorange;
+}
+
+.caracteresEspeciais:hover {
+  background-color: rgb(220, 110, 0);
+  color: #fff;
+  border-color: #292121;
+}

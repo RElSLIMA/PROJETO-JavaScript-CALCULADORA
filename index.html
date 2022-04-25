@@ -12,13 +12,37 @@
 
 <body>
   <div class="container">
+
     <div class="row">
+
       <div class="d-flex justify-content-center">
+
         <div class="calculadora">
 
           <textarea id="tela" class="form-control tela" placeholder="0" disabled="disabled"
             aria-label="With textarea"></textarea>
 
+          <div class="row">
+
+            <button onclick="calcular('acao', '(')" type="button"
+              class="btn font-weight-light caracteresEspeciais">(</button>
+
+            <button onclick="calcular('acao', ')')" type="button"
+              class="btn font-weight-light caracteresEspeciais">)</button>
+
+            <button onclick="calcular('acao', '[')" type="button"
+              class="btn font-weight-light caracteresEspeciais">[</button>
+
+            <button onclick="calcular('acao', ']')" type="button"
+              class="btn font-weight-light caracteresEspeciais">]</button>
+
+            <button onclick="calcular('acao', '{')" type="button"
+              class="btn font-weight-light caracteresEspeciais">{</button>
+
+            <button onclick="calcular('acao', '}')" type="button"
+              class="btn font-weight-light caracteresEspeciais">}</button>
+
+          </div>
           <div class="row">
 
             <button onclick="calcular('acao', 'c')" type="button" class="btn  font-weight-light limpar">C</button>
